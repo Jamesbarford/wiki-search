@@ -1,0 +1,31 @@
+<html>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+ <link rel="stylesheet" href="wikipediaviewer.css"/>
+ <script src="https://use.fontawesome.com/3176fd1bda.js"></script>
+
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 text-center">
+      <h1>Wikipedia search</h1>
+      <form class="form-inline" id="searchform">
+        <input minlength="1" required placeholder="Article search" type="text" id="searchquery" class="form-control">
+        <input type="submit" value="Search" class="btn btn-warning">
+      </form>
+        <br>
+        <button class="btn btn-danger"><a href="https://en.wikipedia.org/wiki/Special:Random">Random article</a></button>
+      <hr class="star-light">
+    </div>
+
+    <div class="col-xs-12">
+      <out>
+      </out>
+    </div>
+  </div>
+</div>
+
+ <script src="wikipediaviewer.js"></script>
+</body>
+</html>
